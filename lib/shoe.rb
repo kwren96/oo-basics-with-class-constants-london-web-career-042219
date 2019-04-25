@@ -7,6 +7,8 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+    if BRANDS.first == true
+      
     BRANDS << self.brand
   end
   
